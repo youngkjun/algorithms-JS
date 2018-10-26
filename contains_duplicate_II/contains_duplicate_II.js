@@ -30,12 +30,15 @@ function containsNearbyDuplicate(nums, k){
 	let hash = {};
     for (let i = 0; i < n; i++) {
     	let t = nums[i];
-    	let j = hash[t];
-    	if (j != null){
-    		if (i-j <= k && t==nums[j]){
+    	//let j = hash[t];
+    	//if (j != null){ // in javascript, no necessary to check
+    		//if (i-j <= k && t==nums[j]){
+    		// No need to compare (t==nums[j]), because it's already same. 
+    		// Already saved in hash means, those are same value.
+    		if (i-hash[t]<=k){
     			return true;
     		}
-    	}
+    	//}
     	hash[t]=i;
     }
     return false;
