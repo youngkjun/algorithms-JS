@@ -18,3 +18,5 @@ function containsNearbyDuplicate(nums, k){
 }
 
 console.log(containsNearbyDuplicate([1,0,1,1], 2));
+console.log(containsNearbyDuplicate([1,0,1,1], 2));
+console.log(containsNearbyDuplicate([1,0,1,1], 2));
