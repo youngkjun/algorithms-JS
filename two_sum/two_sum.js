@@ -1,6 +1,11 @@
 /**
  * Two Sum
  * 
+ * Romans 12:2
+ * Do not conform to the pattern of this world,
+ * but be transformed by the renewing of your mind.
+ * Then you will be able to test and approve what God's will is - his goo, pleasing and perfect will.
+ * 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
