@@ -1,5 +1,10 @@
-/*
-* Contains Duplicate II
+/**
+ * Contains Duplicate II
+ * 
+ * Proverbs 16:9
+ * In their hearts humans plan their course, 
+ * but the LORD established their steps.
+ * 
 Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such that nums[i] = nums[j] and the absolute difference between i and j is at most k.
 
 Example 1:
@@ -20,11 +25,6 @@ Output: false
  * @param {number} k
  * @return {boolean}
  */
-
-/**
-* 72ms in leetcode.com
-* https://leetcode.com/problems/contains-duplicate-ii/
-*/
 function containsNearbyDuplicate(nums, k){
 	let n = nums.length;
 	let hash = {};
