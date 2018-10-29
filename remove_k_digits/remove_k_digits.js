@@ -1,9 +1,16 @@
 /**
  * Remove K Digits
  * 
- * https://leetcode.com/problems/remove-k-digits/
- *
- * Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
+ * Jeremiah 29:11-13
+ * "For I know the plans I have for you," declares the LORD,
+ * "plans to prosper you and not to harm you, 
+ * plans to give you hope and a future. 
+ * Then you will call on me and come and pray to me, 
+ * and I will listen to you. 
+ * You will seek me and find me 
+ * when you seek me with all your heart."
+ * 
+Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
 
 Note:
 The length of num is less than 10002 and will be ≥ k.
